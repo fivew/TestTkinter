@@ -37,5 +37,5 @@ v.set((777, 3412, 678, 1234))
 listbox.bind('<Double-Button-1>', printValue)
 
 listbox.pack()
-
+listbox.selection_set(first)
 root.mainloop()
